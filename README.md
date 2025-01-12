@@ -47,7 +47,7 @@ Highly skilled **DevOps Engineer** with **5 years of experience** specializing i
 
 ## 💼 Work Experience
 
-### ** Site Reliability Engineer I – GoGuardian, Bangalore (Remote) **
+### **Site Reliability Engineer I** – GoGuardian, Bangalore (Remote)
 **July 2023 – Present**
 - Migrated Jenkins from EC2 to EKS, reducing build times by 25% and improving reliability.
 - Implemented AWS CloudFront as a security measure to mitigate DDoS attacks, enhancing system resilience and improving uptime.
