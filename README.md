@@ -3,7 +3,7 @@
 
 📍 Bangalore, India  
 📞 +91 9019474332  
-✉️ hemanth.hku@gmail.com  
+✉️ hemanthakumar.dev@gmail.com  
 🌐 [Portfolio](https://hemanthakumar.dev) | [LinkedIn](https://www.linkedin.com/in/hemanthhs/) | [GitHub](https://github.com/hemanthakumar97)
 
 ---
