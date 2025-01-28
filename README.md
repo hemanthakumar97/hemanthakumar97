@@ -49,7 +49,7 @@ Highly skilled **DevOps Engineer** with **5 years of experience** specializing i
 
 ### **Site Reliability Engineer I** – GoGuardian, Bangalore (Remote)
 **July 2023 – Present**
-- Migrated Jenkins from EC2 to EKS, reducing build times by 25% and improving reliability.
+- Migrated Jenkins from EC2 to EKS, reducing costs by 50% and improving reliability.
 - Implemented AWS CloudFront as a security measure to mitigate DDoS attacks, enhancing system resilience and improving uptime.
 - Automated infrastructure provisioning using Terraform to manage AWS resources, ensuring compliance with ISO standards.
 - Developed and maintained Jenkins CI/CD pipelines, including optimization and automation of workflows, reducing deployment time by 20%.
