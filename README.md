@@ -33,7 +33,6 @@ Highly skilled **DevOps Engineer** with **5 years of experience** specializing i
 
 ### Programming & Scripting
 - Python
-- Go
 
 ### Monitoring & Logging
 - Grafana
