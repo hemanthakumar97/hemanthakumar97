@@ -1,111 +1,105 @@
 # Hemanthakumar S
-### DevOps Engineer | Cloud Automation Specialist
+### Site Reliability Engineer | DevOps | Cloud Infrastructure
 
 📍 Bangalore, India  
-📞 +91 9x1x4x4x3x
 ✉️ hemanthakumar.dev@gmail.com  
 🌐 [Portfolio](https://hemanthakumar.dev) | [LinkedIn](https://www.linkedin.com/in/hemanthhs/) | [GitHub](https://github.com/hemanthakumar97)
 
 ---
 
-## 🌟 About Me
-Highly skilled **DevOps Engineer** with **5 years of experience** specializing in **cloud automation, CI/CD pipelines, Kubernetes, and security-first architectures**. Proficient in leveraging tools like **AWS, Terraform, Python, Docker, and Jenkins** to optimize deployment processes and ensure scalability and security. Demonstrated expertise in **migrating Jenkins to EKS**, implementing **WAF/Shield for DDoS protection**, and creating robust **CI/CD pipelines** for seamless delivery.
+## About Me
+
+SRE and DevOps Engineer with **5+ years of experience** in cloud infrastructure, Kubernetes, and CI/CD automation on AWS. At GoGuardian, driving reliability and cost efficiency across EKS-based systems — including AI-augmented workflows that cut hours of manual security analysis to minutes.
+
+Focused on problems where automation has clear leverage: a 90-minute DDoS outage redesigned into a zero-impact edge defense, a 3-day patch cycle compressed to 4 hours, and a 60-minute vulnerability review reduced to under 2 minutes. My goal is infrastructure that's observable, secure, and boring to operate.
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 ### Cloud Platforms
-- AWS
-- GCP
+`AWS` `GCP`
 
-### DevOps Tools & CI/CD
-- Jenkins
-- GitLab CI/CD
-- Docker
-- Kubernetes
-- EKS
+### Containers & Orchestration
+`Kubernetes` `Docker` `EKS` `GKE` `Helm` `Karpenter` `Microservices`
 
-### Infrastructure Automation
-- Terraform
-- Ansible
-- Packer
+### CI/CD
+`Jenkins` `GitLab CI` `GitHub Actions` `ArgoCD`
 
-### Programming & Scripting
-- Python
+### Infrastructure as Code
+`Terraform` `Ansible` `Packer`
 
-### Monitoring & Logging
-- Grafana
-- Prometheus
+### Observability
+`Datadog` `Prometheus` `Grafana` `CloudWatch` `SLO Monitoring` `Log Analysis`
 
-### Database
-- MongoDB
-- SQL
+### Security
+`AWS WAF` `AWS Shield` `DDoS Protection` `AWS Secrets Manager` `IAM` `Patch Management`
+
+### Incident Management
+`PagerDuty` `On-Call` `Post-Mortems` `Runbooks`
+
+### Programming & AI
+`Python` `AI/LLM Tooling` `Claude` `Codex`
+
+### Databases
+`MongoDB Atlas` `SQL`
 
 ---
 
-## 💼 Work Experience
+## Work Experience
 
-### **Site Reliability Engineer I** – GoGuardian, Bangalore (Remote)
+### Site Reliability Engineer — GoGuardian, Bangalore (Remote)
 **July 2023 – Present**
-- Migrated Jenkins from EC2 to EKS, reducing costs by 50% and improving reliability.
-- Implemented AWS CloudFront as a security measure to mitigate DDoS attacks, enhancing system resilience and improving uptime.
-- Automated infrastructure provisioning using Terraform to manage AWS resources, ensuring compliance with ISO standards.
-- Developed and maintained Jenkins CI/CD pipelines, including optimization and automation of workflows, reducing deployment time by 20%.
-- Developed and maintained numerous Python automation scripts to handle repetitive tasks such as resource provisioning, monitoring, data processing, and log analysis, significantly reducing manual effort and errors.
-- Configured, maintained, and optimized servers, improving efficiency and ensuring security compliance.
-- Successfully migrated an Amazon EKS cluster to a new EKS cluster, ensuring minimal downtime and optimized performance.
-- Implemented security measures and compliance checks, resolving vulnerabilities and ensuring adherence to best practices.
-- Built and managed machine images with Packer, integrating with cloud services to ensure efficient and repeatable environment creation.
-- Extensive experience with Python automation and AWS Lambda, including monitoring and alerting for resource usage.
-- Managed server configurations and deployments using Ansible, ensuring consistency and reliability in complex environments.
 
-### **DevOps Engineer** – 42Gears Mobility Systems, Bangalore
+- Built AI skill files for CLI agents (Claude/Codex) to automate vulnerability analysis and DDoS alert investigation, reducing analysis time from 60+ min to under 5 min — enabling engineers to self-serve security investigations without SRE involvement
+- Migrated Jenkins from EC2 to EKS, reducing CI/CD infrastructure costs by 50% and eliminating agent queue wait times from 20–30 min to under 1 minute
+- Implemented AWS CloudFront and WAF as a layered DDoS mitigation strategy, blocking 4 attacks with zero production impact over 2 years
+- Managed AWS infrastructure with Terraform using reusable modules and remote state, ensuring consistent, auditable provisioning aligned with ISO compliance standards
+- Migrated Amazon EKS cluster (v1.23 → v1.28) using a blue-green strategy with under 5 minutes of user-facing impact
+- Automated kernel and package upgrades using Python & AWS Systems Manager, reducing security vulnerabilities by 80% and cutting patch cycle from 2–3 days to 4 hours
+- Developed Python automation scripts reducing manual operational effort by 70%, freeing teams to focus on higher-impact work
+- Built centralized Datadog dashboards for all-services health, traffic breakdowns, and DDoS monitoring; defined SLOs with burn-rate alerts to surface reliability risk before customer impact
+- Owned end-to-end incident management — configured PagerDuty routing and escalation policies, authored runbooks for common failure scenarios, and led post-mortem reviews
+- Designed disaster recovery strategy with defined RTO targets: stateless workloads reprovisionable in <1 hr via Terraform; databases restorable in 1–6 hrs with tested restore procedures
+- Centralized secrets management with AWS Secrets Manager, eliminating hardcoded credentials and enforcing least-privilege IAM policies across services
+- Managed server configuration and compliance across EC2 fleets using Ansible playbooks, reducing configuration drift
+- Led MongoDB Atlas version upgrades via staged rollout (dev → QA → prod), validated index integrity post-upgrade, and maintained a tested revert plan
+
+### DevOps Engineer — 42Gears Mobility Systems, Bangalore
 **Nov 2020 – July 2023**
-- Built and maintained AWS and GCP infrastructure, including instances, storage buckets, load balancers, and Kubernetes clusters.
-- Designed and deployed Docker containers and Kubernetes clusters for a microservices architecture, increasing application scalability and portability.
-- Reduced manual intervention by 60% by implementing a CI/CD workflow, resulting in faster and more frequent releases.
-- Collaborated with development and QA teams, optimizing workflows and increasing efficiency by 20%.
-- Developed a suite of Python scripts to automate data processing and analysis tasks, leading to a 300% increase in speed and significantly reducing manual errors.
-- Worked on Karpenter to reduce cloud costs and improve autoscaling efficiency by 25%, enhancing infrastructure scalability.
-- Mentored junior team members on DevOps tasks, including CI/CD pipeline implementation, cloud infrastructure management, and deployment process automation.
-- Maintained and optimized a Grafana and Prometheus monitoring system, ensuring high availability and performance.
-- Actively participated in bug-fixing activities as part of the development team, improving product reliability and stability.
+
+- Implemented Karpenter to replace Cluster Autoscaler, reducing compute costs by 25% and cutting node startup time from 3–5 min to 45 sec
+- Designed and implemented GitLab CI/CD pipelines from scratch, reducing manual intervention by 60% and enabling one-click deployments across 5+ microservices
+- Developed Python scripts to automate log analysis, reporting, and data processing tasks — 300% increase in processing speed
+- Designed AWS VPC architecture with public/private subnet segmentation, routing tables, internet gateways, and security group/NACL rules across dev, QA, and production environments
+- Set up and managed GKE clusters including node pool configuration, workload deployment, and version upgrades across environments
+- Managed EKS cluster upgrades across environments with zero downtime
+- Mentored 2 junior engineers on CI/CD, Kubernetes, and cloud infrastructure — both delivering independently within 3 months
 
 ---
 
-## 📚 Projects
+## Projects
 
-### **Amazon EKS Cluster Management**  
-[GitHub Repository](https://github.com/hemanthakumar97/EKS)  
-- Designed and deployed an **EKS cluster** using Infrastructure as Code (IaC) principles.
-- Automated cluster setup and maintenance tasks, integrating with CI/CD pipelines for streamlined operations.
+### Personal Investment Tracker (Wealthfolio)
+[GitHub](https://github.com/hemanthakumar97/wealthfolio) — *2026*
+- Built a full-stack investment tracking app from scratch using AI-assisted development, self-hosted on a Raspberry Pi
+- Automated email parsing to ingest transaction notifications and update portfolio data without manual input
 
-### **Terraform Infrastructure as Code**  
-[GitHub Repository](https://github.com/hemanthakumar97/Terraform-IaC)  
-- Developed reusable **Terraform modules** for provisioning cloud infrastructure across AWS.
-- Automated resource creation for compute, networking, and storage, reducing deployment time by **50%**.
-
-### **Packer AMI Creation**  
-[GitHub Repository](https://github.com/hemanthakumar97/Packer-AMI)  
-- Built and managed **custom Amazon Machine Images (AMIs)** using Packer, ensuring compatibility with application requirements and security standards.
-- Integrated Packer workflows with CI/CD pipelines for automated image creation and deployment.
+### EKS Cluster and Terraform Modules
+[EKS](https://github.com/hemanthakumar97/EKS) · [Terraform](https://github.com/hemanthakumar97/Terraform-IaC) — *2023–2024*
+- Provisioned production-grade EKS clusters and reusable Terraform modules for AWS infrastructure
+- Built custom AMIs via Packer integrated into CI/CD pipelines for automated image creation
 
 ---
 
-## 🎓 Certifications
-- **AWS Certified Solutions Architect – Associate** (2024)
-- **Data Analysis with Python** – Jovian
+## Certifications
+
+- **AWS Certified Solutions Architect – Associate** — Amazon Web Services  
+  Valid: Jun 2024 – Jun 2027 · [Verify on Credly](https://www.credly.com/badges/ea38ce64-a146-454c-be61-7206ab7b4e53/)
 
 ---
 
-## 🎓 Education
-- **Bachelor of Engineering in Electronics and Communication Engineering**  
-  Visvesvaraya Technological University  
+## Education
 
----
-
-## 🎯 Interests
-- Books  
-- Coding  
-- Mobile Photography
+**Bachelor of Engineering in Computer Science**  
+Visvesvaraya Technological University · 2015 – 2019
