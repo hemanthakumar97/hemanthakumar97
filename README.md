@@ -55,7 +55,7 @@ Focused on problems where automation has clear leverage: a 90-minute DDoS outage
 - Migrated Jenkins from EC2 to EKS, reducing CI/CD infrastructure costs by 50% and eliminating agent queue wait times from 20–30 min to under 1 minute
 - Implemented AWS CloudFront and WAF as a layered DDoS mitigation strategy, blocking 4 attacks with zero production impact over 2 years
 - Managed AWS infrastructure with Terraform using reusable modules and remote state, ensuring consistent, auditable provisioning aligned with ISO compliance standards
-- Migrated Amazon EKS cluster (v1.23 → v1.28) using a blue-green strategy with under 5 minutes of user-facing impact
+- Migrated Amazon EKS cluster (v1.23 → v1.28) using a blue-green strategy with zero downtime
 - Automated kernel and package upgrades using Python & AWS Systems Manager, reducing security vulnerabilities by 80% and cutting patch cycle from 2–3 days to 4 hours
 - Developed Python automation scripts reducing manual operational effort by 70%, freeing teams to focus on higher-impact work
 - Built centralized Datadog dashboards for all-services health, traffic breakdowns, and DDoS monitoring; defined SLOs with burn-rate alerts to surface reliability risk before customer impact
